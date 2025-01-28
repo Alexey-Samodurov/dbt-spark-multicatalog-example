@@ -1,2 +1,3 @@
-# dbt-spark-multicatalog-example
-dbt-spark-multicatalog-example
+- `dbt run --select 1-iceberg-iceberg-ok+ --target 1-iceberg-iceberg-ok`
+- `dbt run --select 2-iceberg-hudi-fail+ --target 2-iceberg-hudi-fail`
+- `dbt run --select 3-iceberg-hudi-ok+ --target 3-iceberg-hudi-ok`
